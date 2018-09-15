@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.progress-bar {
+  animation: progress 5s infinite;
+}
+
+
+@keyframes progress {
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 100%;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+.skill img {
+  cursor: pointer;
+  width: 100%;
+  transition: transform .2s;
+}
+
+.skill img:hover{
+  transform: scale(2);
+}
+
+.btn:hover {
+  padding: 8px 40%;
+  animation: tombol 1.5s infinite;
+}
+
+@keyframes tombol {
+  0% {
+    padding: 8px 1%;
+  }
+  50% {
+    padding: 8px 40%;
+  }
+  100% {
+    padding: 8px 1%;
+  }
+}
+
+.header h1:hover {
+  color:#4173FE;
+  font-weight: bold;
+}
+
